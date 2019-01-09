@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationJTI_prueba1", "WebApplicationJTI_prueba1\WebApplicationJTI_prueba1.csproj", "{756E810C-2CB6-4314-851A-C6689E463CE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756E810C-2CB6-4314-851A-C6689E463CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756E810C-2CB6-4314-851A-C6689E463CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756E810C-2CB6-4314-851A-C6689E463CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756E810C-2CB6-4314-851A-C6689E463CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01B2BF61-03BD-4B92-B1D7-CB79626C64C0}
+	EndGlobalSection
+EndGlobal

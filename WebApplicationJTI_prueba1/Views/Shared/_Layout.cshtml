@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+ <html>
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <style>
+         /* Estilo del cabecero de la página principal */
+         .jumbotron {
+             float: none;
+             position: relative;
+             width: 100%;
+             background-color: #7eceaa;
+
+            
+             text-align: center;
+         }
+
+        
+        
+     </style>
+ </head>
+
+ <body>
+     <div class="jumbotron">
+         <h1 style="color:#f8f8f8">Tracker System JTI</h1>
+         <p>Sistema de Control de Flota Vehícular</p>
+     </div>
+
+     <nav class="navbar navbar-inverse">
+         <div class="container-fluid">
+             <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                 </button>
+                 
+             </div>
+             <div class="collapse navbar-collapse" id="myNavbar">
+                 <ul class="nav navbar-nav">
+                     <li class="active"><a href="#">Home</a>
+                     <li><a href="#">Ubicaciones</a></li>
+                     <li><a href="#">Vehículos</a></li>
+                     <li><a href="#">Conductores</a></li>
+                     <li><a href="#">Reportes</a></li>
+                     <li><a href="#">Contacto</a></li>
+                 </ul>
+             </div>
+         </div>
+     </nav>
+
+
+
+
+
+
+
+
+
+     <partial name="_CookieConsentPartial" />
+
+     <div class="container body-content">
+         @RenderBody()
+
+
+     </div>
+
+
+ </body>
+    </html>
+
